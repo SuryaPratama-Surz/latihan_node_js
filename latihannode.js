@@ -30,17 +30,14 @@ app.get('/salam', (req, res) => {
         res.send(nama)
     } else {
         res.send("Hai Siapa Kamu?")
-    }
-
-
-
- 
-    
+    }    
 });
+
+
 
 
 
 app.listen (port, () => {
     // console.log ("App Listening on port 5000")
-    console.log(`App listening on port ${port}`)
+    console.log(`App terhubung ke port ${port}`)
 });
